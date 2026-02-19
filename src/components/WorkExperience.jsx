@@ -17,7 +17,7 @@ export default function WorkExperience() {
 
                 <div className="relative pl-8 md:pl-0">
                     {/* Timeline line */}
-                    <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary/10 via-primary to-primary/10 -translate-x-1/2 origin-top animate-draw-line"></div>
+                    <div className="absolute left-[7px] md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary/10 via-primary to-primary/10 -translate-x-1/2 origin-top animate-draw-line"></div>
 
                     {/* Job 1 - SQA at ZettaByte */}
                     <div ref={job1Ref} className="relative flex flex-col md:flex-row gap-8 mb-16 group">
@@ -30,7 +30,7 @@ export default function WorkExperience() {
                         </div>
 
                         {/* Timeline dot */}
-                        <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-primary border-4 border-white dark:border-slate-900 -translate-x-[7px] md:-translate-x-1/2 mt-1.5 shadow-[0_0_0_4px_rgba(56,189,248,0.2)] z-10"></div>
+                        <div className="absolute left-[-24px] md:left-1/2 w-4 h-4 rounded-full bg-primary border-4 border-white dark:border-slate-900 -translate-x-1/2 md:-translate-x-1/2 mt-1.5 shadow-[0_0_0_4px_rgba(56,189,248,0.2)] z-10"></div>
 
                         <div className="md:w-1/2 md:pl-12">
                             <div className="glass-panel p-6 rounded-xl shadow-lg border-l-4 border-l-primary hover:translate-x-2 transition-transform duration-300">
@@ -78,7 +78,7 @@ export default function WorkExperience() {
                         </div>
 
                         {/* Timeline dot */}
-                        <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-surface-light dark:bg-surface-dark border-4 border-gray-300 dark:border-slate-600 -translate-x-[7px] md:-translate-x-1/2 mt-1.5 group-hover:border-primary transition-colors z-10"></div>
+                        <div className="absolute left-[-24px] md:left-1/2 w-4 h-4 rounded-full bg-surface-light dark:bg-surface-dark border-4 border-gray-300 dark:border-slate-600 -translate-x-1/2 md:-translate-x-1/2 mt-1.5 group-hover:border-primary transition-colors z-10"></div>
 
                         <div className="md:w-1/2 md:pr-12">
                             <div className="glass-panel p-6 rounded-xl shadow-sm hover:shadow-md transition-all hover:-translate-x-2 duration-300 border-r-4 border-r-primary">
@@ -123,7 +123,7 @@ export default function WorkExperience() {
                         </div>
 
                         {/* Timeline dot */}
-                        <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-surface-light dark:bg-surface-dark border-4 border-gray-300 dark:border-slate-600 -translate-x-[7px] md:-translate-x-1/2 mt-1.5 group-hover:border-primary transition-colors z-10"></div>
+                        <div className="absolute left-[-24px] md:left-1/2 w-4 h-4 rounded-full bg-surface-light dark:bg-surface-dark border-4 border-gray-300 dark:border-slate-600 -translate-x-1/2 md:-translate-x-1/2 mt-1.5 group-hover:border-primary transition-colors z-10"></div>
 
                         <div className="md:w-1/2 md:pl-12">
                             <div className="glass-panel p-6 rounded-xl shadow-sm hover:shadow-md transition-all hover:translate-x-2 duration-300 border-l-4 border-l-primary">
